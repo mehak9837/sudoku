@@ -6,7 +6,6 @@ dataset = pd.read_csv("grid.tsv", delimiter='\t',
 grid = dataset.iloc[:10, :10].values
 # print(np.matrix(grid))
 call = 0
-
 def Check(y, x, n):
     global grid
     for i in range(0, 9):
