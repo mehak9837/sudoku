@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv("/home/specter/Desktop/python/PROJECTS/Sudoku Solver/Sudoku_grid.txt", delimiter='\t',
+dataset = pd.read_csv("grid.tsv", delimiter='\t',
                       header=None)
 grid = dataset.iloc[:10, :10].values
 # print(np.matrix(grid))
